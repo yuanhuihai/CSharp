@@ -64,6 +64,7 @@
             this.label17 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Label11
@@ -431,17 +432,27 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(486, 95);
+            this.label18.Location = new System.Drawing.Point(473, 99);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(47, 12);
             this.label18.TabIndex = 58;
             this.label18.Text = "label18";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(546, 9);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(41, 12);
+            this.label19.TabIndex = 59;
+            this.label19.Text = "github";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(605, 538);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label17);
@@ -526,6 +537,7 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
     }
 }
 
